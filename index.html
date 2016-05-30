@@ -1,7 +1,76 @@
 ﻿<!DOCTYPE HTML>
-
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-	<body>
-	<h4>Hello World</h4>
+	<head>
+		<title>Djonathan Krause</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() 
+			{
+				$(".flip").click(function() 
+				{
+					$(".panel").slideToggle("slow");
+				});
+			});
+		</script>
+
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<!-- <div id="overlay"></div> -->
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Djonathan Krause</h1>
+						<p>Programador &nbsp;&bull;&nbsp; Nerd &nbsp;&bull;&nbsp; Futuro cientista, ou quase isso</p>
+						<nav>
+							<ul>
+								<li><a href="http://www.twitter.com/DjonathanKrause"  target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								
+								<li><a href="http://www.facebook.com/DjonathanKrause" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+								
+								<li><a href="http://www.github.com/oDjonathanKrause" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+								
+								<li><a href="#" class="fa fa-plus flip"><span class="label">Mais</span></a></li>
+							</ul>
+						</nav>
+
+					<div class="panel" style="display: none; position: absolute; left: 35%; width: 33%; background-color: rgba(113, 113, 113, 0.6);">
+						<p>Cursando ciência da computação na FURB. <br> 
+							Dois anos de Inglês - Maple Idiomas.</p>
+						<p>Tecnologias: PHP, HTML, CSS, SQL, JAVA</p>
+						<a>odjonathankrause@gmail.com</a>
+					</div>
+					</header>
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p>Desenvolvido por <a href="http://www.outboxweb.com">Outbox</a>.</p>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
 	</body>
 </html>
