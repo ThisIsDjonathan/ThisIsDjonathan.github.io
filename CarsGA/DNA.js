@@ -17,13 +17,13 @@ class DNA {
    * Each gene it's a random direction.
    */
   initialize() {
-    this.genes = [];
-    for(let i = 0; i < MAX_LIFE_CYCLE; i++) {
+    this.genes = []
+    for(let i = 0; i < MAX_DIST; i++) {
       // Set random vectors as genes
-      this.genes[i] = p5.Vector.random2D();
+      this.genes[i] = p5.Vector.random2D()
       
       // Sets maximum force of vector to be applied to a car
-      this.genes[i].setMag(0.2);
+      this.genes[i].setMag(0.2)
     }
   }
 
@@ -56,7 +56,7 @@ class DNA {
   mutation() {
       this.mutant = false;
       for (let i = 0; i < this.genes.length; i++) {
-        let mutationFlag = random(1) < MUTATION_PROB_PERC ? true : false; 
+        let mutationFlag = random(1) < MUTATION_PROB ? true : false; 
         if (mutationFlag) {
           this.genes[i] = p5.Vector.random2D();
           this.genes[i].setMag(0.2);

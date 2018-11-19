@@ -3,10 +3,10 @@
  */
 class Population {
   constructor() {
-    this.cars = [];
-    this.parents = [];
-    this.popSize = POPULATION_SIZE;
-    this.initialize();
+    this.cars = []
+    this.parents = []
+    this.popSize = POPULATION_SIZE
+    this.initialize()
   }
 
   /**
@@ -24,21 +24,21 @@ class Population {
    * Evaluate each car from population.
    */
   evaluate() {
-    let bestFitness = 0;
+    let bestFitness = 0
 
     // Calculate fitness for each car on population.
     this.cars.forEach(function(car) {
-      car.calcFitness();
+      car.calcFitness()
 
       // If actual cars fitness it's better than the best one, set this as best.
       if(car.fitness > bestFitness) {
-        bestFitness = car.fitness;
+        bestFitness = car.fitness
       }
     });
 
     // Normalises fitnesses to all values be between 0 and 1.
     this.cars.forEach(function(car) {
-        car.fitness /= bestFitness;
+        car.fitness /= bestFitness
     });
 
     // Loop through population and take each cars fitness to make it into a scale of 1 to 100.
@@ -47,10 +47,10 @@ class Population {
     this.parents = [];
     for (let i = 0; i < this.popSize; i++) {
       // Get car fitness and multiply by 100 
-      let n = this.cars[i].fitness * 100;
+      let n = this.cars[i].fitness * 100
       // Put this car (future parent) into a list of parents n times. 
       for (var j = 0; j < n; j++) {
-        this.parents.push(this.cars[i]);
+        this.parents.push(this.cars[i])
       }
     }
   }
@@ -88,21 +88,18 @@ class Population {
     let completed = 0;
     this.cars.forEach(function(car) {
       if(car.completed)
-        completed++;
-    });
-
-    return completed;
+        completed++
+    })
+    return completed
   }
 
   getCrashedCars() {
-    let crashed = 0;
+    let crashed = 0
     this.cars.forEach(function(car) {
       if(car.crashed)
-        crashed++;
-    });
-
-    return crashed;
-
+        crashed++
+    })
+    return crashed
   }
 
   /**
@@ -111,8 +108,8 @@ class Population {
   run() {
     // Update and show each car on population
     this.cars.forEach(function(car) {
-      car.update();
-      car.show();
-    });
+      car.update()
+      car.show()
+    })
   }
 }
