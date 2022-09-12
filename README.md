@@ -5,7 +5,7 @@
 
 - 📫 How to reach me **DjonathanWithD@gmail.com**
 
-- 📄 Know about my experiences and projects [TheDjonathan.github.io](TheDjonathan.github.io)
+- 📄 Know about my experiences and projects [http://thedjonathan.github.io/](TheDjonathan.github.io)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
