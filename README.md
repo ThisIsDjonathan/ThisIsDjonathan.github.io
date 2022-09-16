@@ -3,9 +3,9 @@
 
 - 💬 Ask me about **relational databases,WMS,team leadership**
 
-- 📫 How to reach me **DjonathanWithD@gmail.com**
+- 📫 Ypu can reach me on **email@djonathan.com**
 
-- 📄 Know about my experiences and projects TheDjonathan.github.io
+- 📄 Know about my experiences and projects on [www.djonathan.com](https://www.djonathan.com/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
