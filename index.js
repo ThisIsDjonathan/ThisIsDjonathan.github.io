@@ -1,15 +1,20 @@
-const NUM_OF_BALLS = 40;
 const SPRING = 0.5;
 const GRAVITY = 0.01;
 const FRICTION = -0.9;
+let num_of_balls = 40;
 let balls = [];
 
 function setup() {
     canvas = createCanvas(windowWidth, windowHeight)
+    num_of_balls = (windowWidth + windowHeight) * 0.020 
+    if (num_of_balls > 100) {
+        num_of_balls = 100
+    }
+    console.log(windowWidth, windowHeight, num_of_balls)
     canvas.position(0, 0)
     canvas.style('z-index', '-1')
 
-    for (let i = 0; i < NUM_OF_BALLS; i++) {
+    for (let i = 0; i < num_of_balls; i++) {
         let color = {
             r: 10,
             g: 20,
@@ -43,7 +48,7 @@ class Ball {
     }
 
     collide() {
-        for (let i = this.id + 1; i < NUM_OF_BALLS; i++) {
+        for (let i = this.id + 1; i < num_of_balls; i++) {
             let dx = this.others[i].x - this.x;
             let dy = this.others[i].y - this.y;
             let distance = sqrt(dx * dx + dy * dy);
