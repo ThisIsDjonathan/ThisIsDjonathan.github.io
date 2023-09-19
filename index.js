@@ -10,7 +10,6 @@ function setup() {
     if (num_of_balls > 100) {
         num_of_balls = 100
     }
-    console.log(windowWidth, windowHeight, num_of_balls)
     canvas.position(0, 0)
     canvas.style('z-index', '-1')
 
