@@ -1,18 +1,40 @@
 <h1 align="center">Hi 👋, I'm Djonathan Krause</h1>
-<h3 align="center">but you can call me Dj. I'm a software engineer from Brasil.</h3>
+<h3 align="center">You can call me DJ. I'm a Software Engineer from Brasil 🇧🇷</h3>
+<p>📫 Let's connect! Check my contact info on <a href="https://www.djonathan.com/" target="_blank">djonathan.com</a></p>
 
-- 💬 Ask me about **relational databases,WMS,team leadership**
+<h1>Projects</h1>
 
-- 📫 Ypu can reach me on **email@djonathan.com**
+<div style="margin-bottom: 180px">
+    <h3>Alexa Skill - Daily Stoic</h3>
+    <a href="https://github.com/ThisIsDjonathan/alexa-skill-daily-stoic" target="_blank">
+        <img width="200" src="./assets/images/alexa-skill.png" style="float:left; padding-right:10px">
+    </a>
+    <p style="padding-top: 10px"> This is an Alexa Skill that will give you a new stoic quote everyday!</br> Download the Portuguese version
+        <a href="https://www.amazon.com.br/Djonathan-Krause-Di%C3%A1rio-Estoico/dp/B0CRZ9Y9K7/ref=sr_1_8?qid=1708099314&refinements=p_72%3A17833783011&s=alexa-skills&sr=1-8">here</a> and the English version <a href="https://www.amazon.com.br/Djonathan-Krause-Di%C3%A1rio-Estoico/dp/B0CRZ9Y9K7/ref=sr_1_8?qid=1708099314&refinements=p_72%3A17833783011&s=alexa-skills&sr=1-8">here</a>.
+        <a href="https://github.com/ThisIsDjonathan/alexa-skill-daily-stoic"></br>Here</a> is the GitHub with the implementation details.
+    </p>
+</div>
 
-- 📄 Know about my experiences and projects on [www.djonathan.com](https://www.djonathan.com/)
+<div style="margin-bottom: 180px">
+    <h3>Audiobook Chapter Identifier</h3>
+    <a href="https://github.com/ThisIsDjonathan/youtube-audiobook-chapter-identifier" target="_blank">
+        <img width="200" src="./assets/images/audiobook-bot.jpeg" style="float:left; padding-right:10px">
+    </a>
+    <p style="padding-top: 10px">This bot identify the chapters in an audiobook hosted on YouTube 🔎🕵🏻‍♂️📋 </br> Check the repo <a href="https://github.com/ThisIsDjonathan/youtube-audiobook-chapter-identifier" target="_blank">here</a>!</p>
+</div>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/djonathan-krause-8981a788" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="djonathan-krause-8981a788" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/40891/djonathan-krause" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="40891/djonathan-krause" height="30" width="40" /></a>
-<a href="https://instagram.com/sr.nier" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="sr.nier" height="30" width="40" /></a>
-</p>
+<div style="margin-bottom: 180px">
+    <h3>Clone TabNews.com.br</h3>
+    <a href="https://github.com/ThisIsDjonathan/clone-tabnews" target="_blank">
+        <img width="200" src="./assets/images/tabnews.png" style="float:left; padding-right:10px">
+    </a>
+    <p style="padding-top: 10px">This is a <a href="https://www.tabnews.com.br/" target="_blank">TabNews.com.br</a> clone we are building together on <a href="https://curso.dev/" target="_blank">curso.dev</a> 📚👓 You can take a look in the repo <a href="https://github.com/ThisIsDjonathan/clone-tabnews" target="_blank">here</a>!</p>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<div style="margin-bottom: 180px">
+    <h3>TicTacToe 3</h3>
+    <a href="https://github.com/ThisIsDjonathan/tictactoe3" target="_blank">
+        <img width="200" src="./assets/images/tictactoe3.png" style="float:left; padding-right:10px">
+    </a>
+    <p style="padding-top: 10px">A new version of the classic Tic Tac Toe game 🎲⭕❌. </br> This is work in progress. Check the repo <a href="https://github.com/ThisIsDjonathan/tictactoe3" target="_blank">here</a>.</p>
+</div>
