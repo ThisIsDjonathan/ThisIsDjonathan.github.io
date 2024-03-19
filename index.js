@@ -15,9 +15,9 @@ function setup() {
 
     for (let i = 0; i < num_of_balls; i++) {
         let color = {
-            r: 10,
-            g: 20,
-            b: 30
+            r: 255,
+            g: 236,
+            b: 69
         }
         balls[i] = new Ball(random(width), random(height), random(30, 70), i, color, balls);
     }
