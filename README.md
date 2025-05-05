@@ -12,7 +12,7 @@
         <img width="200" src="./assets/images/bulk-google-maps.png" style="float:left; padding-right:10px">
     </a>
     <p style="padding-top: 10px">Search multiple Google <code>place_id</code> and <code>Google Maps URL</code> at once!</br> 
-    <a href="https://bulk-google-maps-lookup.vercel.app" target="_blank">🧪 Try it live</a> or check the repo 
+    <a href="https://bulk-google-maps-lookup.djonathan.com" target="_blank">🧪 Try it live</a> or check the repo 
     <a href="https://github.com/ThisIsDjonathan/bulk-google-maps-lookup" target="_blank">here</a>.</p>
 </div>
 
